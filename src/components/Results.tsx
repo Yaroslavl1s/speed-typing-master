@@ -26,7 +26,7 @@ const Results = ({
     <motion.ul
       initial={initial}
       animate={animate}
-      className={`flex flex-col items-center text-yellow-400 space-y-3 ${className}`}
+      className={`flex flex-col items-center text-blue-400 space-y-3 ${className}`}
     >
       <motion.li
         initial={initial}
@@ -47,7 +47,7 @@ const Results = ({
         initial={initial}
         animate={animate}
         transition={{ duration: 0.3, delay: 1 }}
-        className="text-red-500"
+        className="text-green-500"
       >
         Errors: {errors}
       </motion.li>
