@@ -1,5 +1,4 @@
 import React from "react";
-import {BrowserRouter as Router,} from 'react-router-dom';
 import GeneratedWords from "./components/GeneratedWords";
 import RestartButton from "./components/RestartButton";
 import Results from "./components/Results";
