@@ -19,7 +19,7 @@ const RestartButton = ({
     <button
       tabIndex={-1} // to prevent focus
       ref={buttonRef}
-      className={`block rounded px-10 py-2 hover:bg-slate-500/30  ${className}`}
+      className={`block rounded px-10 py-2 hover:bg-slate-600/30  ${className}`}
       onClick={handleClick}
     >
       <MdRefresh className="w-6 h-6" />
